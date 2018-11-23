@@ -1,0 +1,8 @@
+type App {
+    id:String
+    name:String
+}
+
+type Query {
+    app(id:String):App
+}
